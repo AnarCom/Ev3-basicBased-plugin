@@ -62,7 +62,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Uploader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -81,6 +81,14 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CompilerTest\CompilerTest.csproj">
+      <Project>{7fcdf143-6e28-4d5e-adfd-44c0a30325e3}</Project>
+      <Name>CompilerTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EV3Communication\EV3Communication.csproj">
+      <Project>{c3c8582b-f715-41f9-a565-14c6918a0105}</Project>
+      <Name>EV3Communication</Name>
+    </ProjectReference>
     <ProjectReference Include="..\LMSAssembler\LMSAssembler.csproj">
       <Project>{db6e87ad-6cb4-401a-925b-7e40f7cbf042}</Project>
       <Name>LMSAssembler</Name>
